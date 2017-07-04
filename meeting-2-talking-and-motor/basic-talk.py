@@ -5,11 +5,11 @@ from ev3dev.ev3 import *
 
 Leds.set_color(Leds.LEFT, Leds.RED)
 
-Sound.tone(1500, 2000).wait()
+Sound.tone(1500, 200).wait()
 
 Leds.set_color(Leds.LEFT, Leds.ORANGE)
 
-name = "Allie"
+name = "Josefeen"
 message = 'Hello '+name+', I am your robot'
 Sound.speak(message).wait()
 
