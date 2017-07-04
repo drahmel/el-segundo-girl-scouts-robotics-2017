@@ -9,7 +9,7 @@ Sound.tone(1500, 2000).wait()
 
 Leds.set_color(Leds.LEFT, Leds.ORANGE)
 
-name = "Dan"
+name = "Allie"
 message = 'Hello '+name+', I am your robot'
 Sound.speak(message).wait()
 
